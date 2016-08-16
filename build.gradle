@@ -5,14 +5,12 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.12.2'
+        classpath 'com.android.tools.build:gradle:2.1.2'
         classpath 'com.nabilhachicha:android-native-dependencies:0.1+'
     }
 }
 
 allprojects {
-    webrtcRevision = "7113"
-
     repositories {
         mavenCentral()
     }
